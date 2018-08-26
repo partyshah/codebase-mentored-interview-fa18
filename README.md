@@ -1,4 +1,4 @@
-# Welcome to Fall 2018 Mentored Project Technical Interview!
+# Welcome to the Fall 2018 Mentored Project Technical Interview!
 
 In this interview, you will implement the classic interactive game, **Towers of Hanoi**.
 ![alt text](https://s3.amazonaws.com/codecademy-content/courses/cs-path-stacks/stacks-project/towers.gif "Logo Title Text 1")
