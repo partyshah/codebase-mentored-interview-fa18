@@ -25,7 +25,7 @@ Fill in the function `create_towers` such that you append the appropriate disks 
 
 ### Getting User Input
 Fill in the function `get_user_input` such that you prompt the user to enter a tower and that corresponding tower should be returned. The output should look like this:
-```python3
+```
 Enter 'L' for Left
 Enter 'M' for Middle
 Enter 'R' for Right
@@ -36,8 +36,8 @@ Put choice here:
 If the user enters `'L'`, then `left` should be returned.
 
 If the user enters a choice that isn't listed, then the following should be printed:
-```python3
-That isn't valid choice. Try again.
+```
+That isn't a valid choice. Try again.
 ```
 and then the user should be prompted until a valid choice is entered.
 
