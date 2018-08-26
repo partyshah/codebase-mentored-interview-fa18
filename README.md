@@ -21,7 +21,7 @@ In this game, we will model the disks as numbers (i.e. the larger the number, th
 Some the code has been outlined/done for you. In this game, we will model the three towers as lists, `left`, `middle`, and `right`. As demonstrated by the code, `num_disks` will be determined by the user.
 
 ### Creating the Towers
-Fill in the function `create_towers` such that you append the appropriate disks to `left`. For instance, if `num_disks` is `3`, then `create_disks` should maked `left` equal to `[3, 2, 1]`
+Fill in the function `create_towers` such that you append the appropriate disks to `left`. For instance, if `num_disks` is `3`, then `create_disks` should make `left` equal to `[3, 2, 1]`
 
 ### Getting User Input
 Fill in the function `get_user_input` such that you prompt the user to enter a tower and that corresponding tower should be returned. The output should look like this:
