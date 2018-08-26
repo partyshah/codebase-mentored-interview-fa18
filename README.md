@@ -50,7 +50,7 @@ Fill in the function `is_solved` that returns `True` if the game is solved and `
 ### Filling in the Game Logic
 Fill in the function `play_game` such that when called the entire game should be played. Use the logic of the game and the other functions to fill this function out. Refer back to the video and rules if you are confused about the game logic.
 
-##Running Code
+## Running Code
 To run a specific function, run
 ```python3
 python3 -c 'import interview; print interview.function_name()'
