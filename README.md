@@ -15,15 +15,15 @@ In this game, we will model the disks as numbers (i.e. the larger the number, th
 
 [Towers of Hanoi](https://s3.amazonaws.com/codecademy-content/courses/cs-path-stacks/towers.mov)
 
-##Tasks
+## Tasks
 
-###Setup
+### Setup
 Some the code has been outlined/done for you. In this game, we will model the three towers as lists, `left`, `middle`, and `right`. As demonstrated by the code, `num_disks` will be determined by the user.
 
-###Creating the Towers
+### Creating the Towers
 Fill in the function `create_towers` such that you append the appropriate disks to `left`. For instance, if `num_disks` is `3`, then `create_disks` should maked `left` equal to `[3, 2, 1]`
 
-###Getting User Input
+### Getting User Input
 Fill in the function `get_user_input` such that you prompt the user to enter a tower and that corresponding tower should be returned. The output should look like this:
 ```python3
 Enter 'L' for Left
@@ -41,13 +41,13 @@ That isn't valid choice. Try again.
 ```
 and then the user should be prompted until a valid choice is entered.
 
-###Checking a Valid Move
+### Checking a Valid Move
 Fill in the function `is_valid_move` such that a the function returns `True` if a move from the `from_tower` to the `to_tower` is valid and `False` otherwise.
 
-###Checking if the Game is Solved
+### Checking if the Game is Solved
 Fill in the function `is_solved` that returns `True` if the game is solved and `False` otherwise. Think about at what point the game is solved..
 
-###Filling in the Game Logic
+### Filling in the Game Logic
 Fill in the function `play_game` such that when called the entire game should be played. Use the logic of the game and the other functions to fill this function out. Refer back to the video and rules if you are confused about the game logic.
 
 ##Running Code
