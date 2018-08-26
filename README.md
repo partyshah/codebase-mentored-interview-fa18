@@ -13,10 +13,7 @@ The game follows three rules:
 
 In this game, we will model the disks as numbers (i.e. the larger the number, the bigger the disk). Here's what a possible game solution could look like:
 
-<video width="100%" height="100%" align="middle" style="display: block; margin: 1rem auto;" controls>
-  <source src="https://s3.amazonaws.com/codecademy-content/courses/cs-path-stacks/towers.mov" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Towers of Hanoi](https://s3.amazonaws.com/codecademy-content/courses/cs-path-stacks/towers.mov)
 
 ##Tasks
 
