@@ -21,11 +21,11 @@ In this game, we will model the disks as numbers (i.e. the larger the number, th
 Some the code has been outlined/done for you. In this game, we will model the three towers as lists, `left`, `middle`, and `right`. As demonstrated by the code, `num_disks` will be determined by the user. `get_num_disks` and `get_user_input` has been implemented for you.
 
 ### Creating the Towers
-Fill in the function `create_towers` such that you append the appropriate disks to `left`. For instance, if `num_disks` is `3`, then `create_disks` should make `left` equal to `[3, 2, 1]`
+Fill in the function `create_towers` such that you append the appropriate disks to `left`. For instance, if `num_disks` is `3`, then `create_towers` should make `left` equal to `[3, 2, 1]`
 
 
 ### Checking a Valid Move
-Fill in the function `is_valid_move` such that a the function returns `True` if a move from the `from_tower` list to the `to_tower` list is valid and `False` otherwise.
+Fill in the function `is_valid_move` such that the function returns `True` if a move from the `from_tower` list to the `to_tower` list is valid and `False` otherwise.
 
 ### Checking if the Game is Solved
 Fill in the function `is_solved` that returns `True` if the game is solved and `False` otherwise. Think about at what point the game is solved..
@@ -34,12 +34,12 @@ Fill in the function `is_solved` that returns `True` if the game is solved and `
 Fill in the function `play_game` such that when called the entire game should be played. Use the logic of the game and the other functions to fill this function out. Refer back to the video and rules if you are confused about the game logic.
 
 ## Running Code
-To run a specific function, run
+To run a specific function, change the function name on the last line of the code and run
 ```python3
-python3 -c 'import interview; print interview.function_name()'
+python3 interview.py
 ```
 
-To run the entire game, run
+To run the entire game, change the function name on the last line to `play_game()` and run
 ```python3
 python3 interview.py
 ```
