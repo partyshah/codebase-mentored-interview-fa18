@@ -18,31 +18,14 @@ In this game, we will model the disks as numbers (i.e. the larger the number, th
 ## Tasks
 
 ### Setup
-Some the code has been outlined/done for you. In this game, we will model the three towers as lists, `left`, `middle`, and `right`. As demonstrated by the code, `num_disks` will be determined by the user.
+Some the code has been outlined/done for you. In this game, we will model the three towers as lists, `left`, `middle`, and `right`. As demonstrated by the code, `num_disks` will be determined by the user. `get_num_disks` and `get_user_input` has been implemented for you.
 
 ### Creating the Towers
 Fill in the function `create_towers` such that you append the appropriate disks to `left`. For instance, if `num_disks` is `3`, then `create_disks` should make `left` equal to `[3, 2, 1]`
 
-### Getting User Input
-Fill in the function `get_user_input` such that you prompt the user to enter a tower and that corresponding tower should be returned. The output should look like this:
-```
-Enter 'L' for Left
-Enter 'M' for Middle
-Enter 'R' for Right
-
-Put choice here: 
-```
-
-If the user enters `'L'`, then `left` should be returned.
-
-If the user enters a choice that isn't listed, then the following should be printed:
-```
-That isn't a valid choice. Try again.
-```
-and then the user should be prompted until a valid choice is entered.
 
 ### Checking a Valid Move
-Fill in the function `is_valid_move` such that a the function returns `True` if a move from the `from_tower` to the `to_tower` is valid and `False` otherwise.
+Fill in the function `is_valid_move` such that a the function returns `True` if a move from the `from_tower` list to the `to_tower` list is valid and `False` otherwise.
 
 ### Checking if the Game is Solved
 Fill in the function `is_solved` that returns `True` if the game is solved and `False` otherwise. Think about at what point the game is solved..
